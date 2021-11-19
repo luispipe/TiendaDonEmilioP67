@@ -6,4 +6,10 @@
     <dimen name="logoHeight">120dp</dimen>
     <dimen name="textSizeContent">20sp</dimen>
     <dimen name="fotoTiendaHeight">300dp</dimen>
+    <dimen name="itemCommentsUser">25sp</dimen>
+    <dimen name="itemCommentsScore">20sp</dimen>
+    <dimen name="itemsCommentsComment">25sp</dimen>
+    <dimen name="cardCornerRadius">5dp</dimen>
+    <dimen name="cardElevation">1dp</dimen>
+    <dimen name="sizeTitleComments">25sp</dimen>
 </resources>
