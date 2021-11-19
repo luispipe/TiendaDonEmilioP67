@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="cardCorrerRadius">5dp</dimen>
+    <dimen name="cardLayoutMargin">1dp</dimen>
+    <dimen name="defaultLayoutMargin">10dp</dimen>
+    <dimen name="logoHeight">120dp</dimen>
+    <dimen name="textSizeContent">20sp</dimen>
+    <dimen name="fotoTiendaHeight">300dp</dimen>
+</resources>
