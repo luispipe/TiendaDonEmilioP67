@@ -62,9 +62,8 @@
         android:id="@+id/adminDetailFragmentDialog"
         android:name="com.example.tiendadonemiliop67.view.ui.fragments.AdminDetailDialogFragment"
         android:label="AdminDetailFragmentDialog"
-        tools:layout="@layout/fragment_admin_detail_dialog">
+        tools:layout="@layout/fragment_admin_detail_dialog"/>
 
-    </fragment>
 
 
 </navigation>

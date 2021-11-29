@@ -13,5 +13,6 @@
     <string name="hintPhone">Teléfono</string>
     <string name="hintMail">Correo</string>
     <string name="btSaveAdmin">Guardar cambios</string>
+    <string name="navigate_edit">Editar Datos</string>
 
 </resources>
