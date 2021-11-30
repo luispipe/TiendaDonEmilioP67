@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "934170027296",
+    "project_id": "tiendadonemilio-18567",
+    "storage_bucket": "tiendadonemilio-18567.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:934170027296:android:69f357e8fb3423032ae345",
+        "android_client_info": {
+          "package_name": "com.example.tiendadonemiliop67"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "934170027296-glbi4b8gjgnfvu82jpccoo6g8dg40oe4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkD7BPkvVY7lBcUALkHzHtYUeCDU6BJRE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "934170027296-glbi4b8gjgnfvu82jpccoo6g8dg40oe4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

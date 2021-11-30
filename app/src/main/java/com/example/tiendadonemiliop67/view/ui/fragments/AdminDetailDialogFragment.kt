@@ -89,6 +89,8 @@ class AdminDetailDialogFragment : Fragment() {
                         binding.etAddressAdmin.setText(cursor.getString(2).toString())
                         binding.etMailAdmin.setText(cursor.getString(3).toString())
                         binding.etPhoneAdmin.setText(cursor.getString(4).toString())
+
+
                     } while (cursor.moveToNext())
                 }
             } else {
