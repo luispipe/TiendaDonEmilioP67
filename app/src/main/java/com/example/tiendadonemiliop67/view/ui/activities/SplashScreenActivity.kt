@@ -21,7 +21,7 @@ class SplashScreenActivity : AppCompatActivity() {
 
         val animation = AnimationUtils.loadAnimation(this,R.anim.animation)
         binding.ivSplashScreen.startAnimation(animation)
-        val intent = Intent(this, MainActivity::class.java)
+        val intent = Intent(this, LoginActivity::class.java)
 
 
         animation.setAnimationListener(object :Animation.AnimationListener{

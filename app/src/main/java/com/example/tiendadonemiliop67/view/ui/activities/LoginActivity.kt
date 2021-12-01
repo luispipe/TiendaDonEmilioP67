@@ -11,8 +11,8 @@ import com.google.firebase.auth.FirebaseAuth
 
 class LoginActivity : AppCompatActivity() {
 
-    val AUTH_REQUEST_CODE=1234
     private lateinit var binding: ActivityLoginBinding
+    val AUTH_REQUEST_CODE=1234
     lateinit var firebaseAuth: FirebaseAuth
     lateinit var listener:FirebaseAuth.AuthStateListener
     lateinit var providers: List<AuthUI.IdpConfig>
@@ -37,8 +37,8 @@ class LoginActivity : AppCompatActivity() {
         providers= arrayListOf(
                 AuthUI.IdpConfig.EmailBuilder().build(),
                // AuthUI.IdpConfig.GoogleBuilder().build(),
-                AuthUI.IdpConfig.PhoneBuilder().build(),
-                AuthUI.IdpConfig.AnonymousBuilder().build(),
+               // AuthUI.IdpConfig.PhoneBuilder().build(),
+               // AuthUI.IdpConfig.AnonymousBuilder().build(),
         )
         val intent = Intent(this, MainActivity::class.java)
         firebaseAuth= FirebaseAuth.getInstance()
@@ -52,7 +52,7 @@ class LoginActivity : AppCompatActivity() {
                     .createSignInIntentBuilder()
                     .setAvailableProviders(providers)
                     .setLogo(R.drawable.logo_vertical)
-                    .setTheme(R.style.FullScreenDialogStyle)
+                    .setTheme(R.style.LoginTheme)
                     .build(),AUTH_REQUEST_CODE)
             }
         }

@@ -14,6 +14,14 @@
       },
       "oauth_client": [
         {
+          "client_id": "934170027296-kn5jad3e33vvs7orug9oi34jpt0kkapb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.tiendadonemiliop67",
+            "certificate_hash": "6603f98bc9a09f5cdff95a902b98aed35c8faa51"
+          }
+        },
+        {
           "client_id": "934170027296-glbi4b8gjgnfvu82jpccoo6g8dg40oe4.apps.googleusercontent.com",
           "client_type": 3
         }
