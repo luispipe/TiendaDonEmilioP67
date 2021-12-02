@@ -42,8 +42,8 @@ class LoginActivity : AppCompatActivity() {
         )
         val intent = Intent(this, MainActivity::class.java)
         firebaseAuth= FirebaseAuth.getInstance()
-        listener= FirebaseAuth.AuthStateListener { p0 ->
-            val user= p0.currentUser
+        listener= FirebaseAuth.AuthStateListener { q1 ->
+            val user= q1.currentUser
             if (user!=null){
                 startActivity(intent)
 

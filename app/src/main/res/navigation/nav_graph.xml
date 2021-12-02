@@ -65,5 +65,4 @@
         tools:layout="@layout/fragment_admin_detail_dialog"/>
 
 
-
 </navigation>

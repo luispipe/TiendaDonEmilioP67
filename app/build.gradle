@@ -35,30 +35,38 @@ android {
 }
 
 dependencies {
-
-    implementation 'androidx.core:core-ktx:1.7.0'
-    implementation 'androidx.appcompat:appcompat:1.3.1'
-    implementation 'com.google.android.material:material:1.4.0'
-    implementation 'androidx.constraintlayout:constraintlayout:2.1.1'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.5.31"
+    implementation 'androidx.core:core-ktx:1.3.2'
+    implementation 'androidx.appcompat:appcompat:1.2.0'
+    implementation 'com.google.android.material:material:1.3.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
     implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.firebase:firebase-auth:21.0.1'
+    implementation 'com.google.firebase:firebase-firestore-ktx:23.0.3'
     testImplementation 'junit:junit:4.+'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
-    api 'androidx.recyclerview:recyclerview:1.2.1'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    //Añadimos la dependencia de RecyclerView
+    api 'androidx.recyclerview:recyclerview:1.1.0'
+
+    //Añadimos dependencias del componente Navigation
     api 'androidx.navigation:navigation-fragment-ktx:2.3.3'
     api 'androidx.navigation:navigation-ui-ktx:2.3.3'
 
+    //Añadimos la dependencia para google maps
+    implementation 'com.google.android.gms:play-services-maps:17.0.0'
+
+    //Añadimos la dependencia para OpenStreetMap
+    implementation 'org.osmdroid:osmdroid-android:6.1.10'
+
     // Import the Firebase BoM
-    implementation platform('com.google.firebase:firebase-bom:29.0.0')
+    implementation platform('com.google.firebase:firebase-bom:28.3.0')
 
-    implementation 'com.google.firebase:firebase-analytics-ktx'
-
-    //dependencia de Firebase UI
-
+    //Añadimos la dependencia de Firebase UI
     implementation 'com.firebaseui:firebase-ui-auth:7.2.0'
 
-    // Required only if Facebook login support is required
-    // Find the latest Facebook SDK releases here: https://goo.gl/Ce5L94
-   // implementation 'com.facebook.android:facebook-android-sdk:8.x'
+    //Añadimos la dependencia de Picasso
+    implementation "com.squareup.picasso:picasso:2.8"
 
 }
