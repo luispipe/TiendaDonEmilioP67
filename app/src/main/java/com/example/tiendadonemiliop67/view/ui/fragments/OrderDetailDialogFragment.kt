@@ -1,4 +1,4 @@
-package com.misiontic2022.tiendadonemilio.view.ui.fragments
+package com.example.tiendadonemiliop67.view.ui.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -34,8 +34,9 @@ class OrderDetailDialogFragment : DialogFragment() {
 
         val products = arguments?.getSerializable("product") as Products
 
-        binding.tvNameProduct.text = products.nombre
-        binding.tvPriceProduct.text = products.precio.toString()
+        binding.tvNameProduct.text = products.name
+        binding.tvDescriptionProduct.text= products.detail
+        binding.tvPriceProduct.text = products.price
         Picasso.get().load(products.url).into(binding.ivProduct)
 
         binding.btBuyProduct.setOnClickListener {

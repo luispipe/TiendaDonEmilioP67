@@ -59,6 +59,14 @@
                             android:gravity="center_horizontal"
                             android:textSize="@dimen/sizePriceProduct"
                             android:textColor="@color/primaryTextColor"/>
+                        <TextView
+                            android:id="@+id/tvDescriptionProduct"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="Detalle"
+                            android:gravity="center_horizontal"
+                            android:textSize="@dimen/sizePriceProduct"
+                            android:textColor="@color/primaryTextColor"/>
 
 
                         <Button
